@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #fff;
 }
 
 header {
@@ -25,18 +25,20 @@ main {
 h2 {
     margin-top: 50px;
     margin-bottom: 32px;
-    background-color: beige;
-    padding: 10px;
+    background-color: black;
+    padding: 15px;
     border-radius: 20px;
+    color: white;
 }
 
-div {
+ #lazer div, #estudos div {
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px black;
     border-radius: 50%;
 }
 
